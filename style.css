@@ -69,6 +69,10 @@ main {
     margin-top: 20px;
 }
 
+.detail-section p {
+    margin-left: 10px;
+}
+
 .detail-section li {
     margin-left: 30px;
 }
