@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    height: 70px;
+    background-color: gray;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 20px 15px 20px 15px;
+    font-size: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: lightgray;
+    letter-spacing: 4px;
+    transition: letter-spacing 0.3s linear;
+}
+
+main {
+    margin-left: 20px;
+}
+
+.profile {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#profile h2 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+#profile section {
+    display: block;
+}
+
+#profile img {
+    width:500px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#profile img:hover {
+    width: 500px;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+#detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.detail-section {
+    flex: 1 1 50%;
+    margin-top: 20px;
+}
+
+.detail-section li {
+    margin-left: 30px;
+}
+
+footer {
+    background-color: lightgray;
+    margin-top: 40px;
+}
+
+footer p {
+    padding: 60px 0 40px 40px;
+}
